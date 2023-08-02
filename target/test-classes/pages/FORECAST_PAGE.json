@@ -1,0 +1,26 @@
+{
+	"name": "FORECAST_PAGE",
+	"detectors": {
+		"web": "FORECAST_PAGE_TITLE_LABEL"
+	},
+	"elements": [
+		{
+			"name": "FORECAST_PAGE_TITLE_LABEL",
+			"locators": {
+				"web": {
+					"selector": "//h1[text()='Singapore 14 Day Extended Forecast']",
+					"strategy": "xpath"
+				}
+			}
+		},
+		{
+			"name": "FORECAST_PAGE_PAST_WEATHER_LINK",
+			"locators": {
+				"web": {
+					"selector": "(//a[text()='Yesterday/Past Weather'])[2]",
+					"strategy": "xpath"
+				}
+			}
+		}
+	]
+}

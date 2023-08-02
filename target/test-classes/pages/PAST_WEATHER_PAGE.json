@@ -1,0 +1,44 @@
+{
+	"name": "PAST_WEATHER_PAGE",
+	"detectors": {
+		"web": "PAST_WEATHER_PAGE_TITLE_LABEL"
+	},
+	"elements": [
+		{
+			"name": "PAST_WEATHER_PAGE_TITLE_LABEL",
+			"locators": {
+				"web": {
+					"selector": "//h1[text()='Past Weather in Singapore, Singapore — Yesterday and Last 2 Weeks']",
+					"strategy": "xpath"
+				}
+			}
+		},
+		{
+			"name": "PAST_WEATHER_PAGE_SUB_TITLE_LABEL",
+			"locators": {
+				"web": {
+					"selector": "//h2[text()='Past Weather in Singapore — Graph']",
+					"strategy": "xpath"
+				}
+			}
+		},
+		{
+			"name": "PAST_WEATHER_PAGE_SELECT_MONTH_DROPDOWN",
+			"locators": {
+				"web": {
+					"selector": "month",
+					"strategy": "id"
+				}
+			}
+		},
+		{
+			"name": "PAST_WEATHER_PAGE_WEATHER_LINKS_AREA",
+			"locators": {
+				"web": {
+					"selector": "(//div[@class='weatherLinks'])[1]",
+					"strategy": "xpath"
+				}
+			}
+		}
+	]
+}

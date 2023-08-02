@@ -1,0 +1,130 @@
+----------Past Weather in Singapore — Graph----------
+dateTime = Tuesday, 30 August 2022, 00:00 — 06:00
+tempDesc(1) = 27 / 25 °C
+tempDesc(2) = Passing clouds.
+humidity = 88%
+barometer = 1009 mbar
+windDesc(1) = SW
+windDesc(2) = 4 km/h
+------------------------------------
+dateTime = Monday, 29 August 2022, 00:00 — 06:00
+tempDesc(1) = 26 / 25 °C
+tempDesc(2) = Passing clouds.
+humidity = 85%
+barometer = 1008 mbar
+windDesc(1) = N
+windDesc(2) = 0 km/h
+------------------------------------
+dateTime = Sunday, 28 August 2022, 00:00 — 06:00
+tempDesc(1) = 25 / 25 °C
+tempDesc(2) = Passing clouds.
+humidity = 94%
+barometer = 1009 mbar
+windDesc(1) = NW
+windDesc(2) = 1 km/h
+------------------------------------
+dateTime = Saturday, 27 August 2022, 00:00 — 06:00
+tempDesc(1) = 25 / 24 °C
+tempDesc(2) = Fog.
+humidity = 93%
+barometer = 1010 mbar
+windDesc(1) = ENE
+windDesc(2) = 1 km/h
+------------------------------------
+dateTime = Friday, 26 August 2022, 00:00 — 06:00
+tempDesc(1) = 26 / 26 °C
+tempDesc(2) = Passing clouds.
+humidity = 94%
+barometer = 1008 mbar
+windDesc(1) = NNE
+windDesc(2) = 2 km/h
+------------------------------------
+dateTime = Thursday, 25 August 2022, 00:00 — 06:00
+tempDesc(1) = 27 / 26 °C
+tempDesc(2) = Passing clouds.
+humidity = 85%
+barometer = 1008 mbar
+windDesc(1) = S
+windDesc(2) = 7 km/h
+------------------------------------
+dateTime = Wednesday, 24 August 2022, 00:00 — 06:00
+tempDesc(1) = 25 / 25 °C
+tempDesc(2) = Passing clouds.
+humidity = 94%
+barometer = 1010 mbar
+windDesc(1) = WSW
+windDesc(2) = 0 km/h
+------------------------------------
+dateTime = Tuesday, 23 August 2022, 00:00 — 06:00
+tempDesc(1) = 28 / 28 °C
+tempDesc(2) = Passing clouds.
+humidity = 79%
+barometer = 1010 mbar
+windDesc(1) = SE
+windDesc(2) = 7 km/h
+------------------------------------
+dateTime = Monday, 22 August 2022, 00:00 — 06:00
+tempDesc(1) = 27 / 27 °C
+tempDesc(2) = Passing clouds.
+humidity = 78%
+barometer = 1009 mbar
+windDesc(1) = SSW
+windDesc(2) = 13 km/h
+------------------------------------
+dateTime = Sunday, 21 August 2022, 00:00 — 06:00
+tempDesc(1) = 26 / 24 °C
+tempDesc(2) = Thunderstorms. Passing clouds.
+humidity = 91%
+barometer = 1009 mbar
+windDesc(1) = W
+windDesc(2) = 8 km/h
+------------------------------------
+dateTime = Saturday, 20 August 2022, 00:00 — 06:00
+tempDesc(1) = 28 / 26 °C
+tempDesc(2) = Passing clouds.
+humidity = 82%
+barometer = 1009 mbar
+windDesc(1) = S
+windDesc(2) = 7 km/h
+------------------------------------
+dateTime = Friday, 19 August 2022, 00:00 — 06:00
+tempDesc(1) = 29 / 28 °C
+tempDesc(2) = Passing clouds.
+humidity = 73%
+barometer = 1009 mbar
+windDesc(1) = SE
+windDesc(2) = 8 km/h
+------------------------------------
+dateTime = Thursday, 18 August 2022, 00:00 — 06:00
+tempDesc(1) = 29 / 27 °C
+tempDesc(2) = Passing clouds.
+humidity = 78%
+barometer = 1009 mbar
+windDesc(1) = SSE
+windDesc(2) = 8 km/h
+------------------------------------
+dateTime = Wednesday, 17 August 2022, 00:00 — 06:00
+tempDesc(1) = 27 / 26 °C
+tempDesc(2) = Passing clouds.
+humidity = 88%
+barometer = 1010 mbar
+windDesc(1) = SSE
+windDesc(2) = 1 km/h
+------------------------------------
+dateTime = Tuesday, 16 August 2022, 00:00 — 06:00
+tempDesc(1) = 28 / 26 °C
+tempDesc(2) = Passing clouds.
+humidity = 83%
+barometer = 1010 mbar
+windDesc(1) = NNE
+windDesc(2) = 2 km/h
+------------------------------------
+dateTime = Monday, 15 August 2022, 18:00 — 00:00
+tempDesc(1) = 29 / 28 °C
+tempDesc(2) = Passing clouds.
+humidity = 74%
+barometer = 1010 mbar
+windDesc(1) = S
+windDesc(2) = 4 km/h
+------------------------------------
+

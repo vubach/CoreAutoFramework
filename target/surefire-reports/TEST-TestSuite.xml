@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.955" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+0"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mfv-computer-0163/Documents/working/freelance/AutomationFramework"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mfv-computer-0163/Documents/working/freelance/AutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2.1+0"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/nn/5ctsmvh12d76xcy5f9_fk82c0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mfv-computer-0163/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.5"/>
+    <property name="library.jansi.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mfv-computer-0163"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="mfv-computer-0163"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/maven/3.8.6/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/opt/homebrew/Cellar/maven/3.8.6/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="feature" classname="com.CucumberCraft.TestNGrunners.TestRunner" time="2.192">
+    <failure message="java.lang.ExceptionInInitializerError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @b104ca1
+</failure>
+    <system-out><![CDATA[log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [ALL].
+log4j: root level set to ALL
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n].
+log4j: Adding appender named [console] to category [root].
+2022-08-30 09:59:51 DEBUG TestListener:26 - BEGINNING: com.CucumberCraft.supportLibraries.WebDriverListener-beforeInvocation
+2022-08-30 09:59:51 WARN  TestListener:40 - Provided method is NOT a TestNG testMethod!!!
+2022-08-30 09:59:51 DEBUG TestListener:42 - END: org.stng.jbehave.LocalWebDriverListener.beforeInvocation
+2022-08-30 09:59:51 DEBUG TestListener:49 - BEGINNING: WebDriverListener.afterInvocation
+2022-08-30 09:59:51 DEBUG TestListener:65 - END: WebDriverListener.afterInvocation
+2022-08-30 09:59:51 DEBUG TestListener:26 - BEGINNING: com.CucumberCraft.supportLibraries.WebDriverListener-beforeInvocation
+2022-08-30 09:59:51 DEBUG TestListener:42 - END: org.stng.jbehave.LocalWebDriverListener.beforeInvocation
+@SaveWeatherData
+Feature: Save Weather Data
+  As a user
+  I want to extract Singapore weather data based on selected timeframe
+
+  @SWD_01
+  Scenario Outline: SWD_01 - Export weather data into test report                # SaveWeatherData.feature:7
+    Given user launches application under test
+    And "FORECAST_PAGE" shows up
+    When user clicks on menu following orders "Weather > Yesterday/Past Weather"
+    Then "PAST_WEATHER_PAGE" shows up
+    And "PAST_WEATHER_PAGE_WEATHER_LINKS_AREA" is present
+    When user select "PAST_WEATHER_PAGE_SELECT_MONTH_DROPDOWN" as "<timeframe>"
+    Then user export weather data into test report
+
+    Examples: 
+-> Browser: CHROME
+-> TestData: N/A
+2022-08-30 09:59:51 INFO  TestController:41 - Thread has no WebDriver, creating new one
+
+  @SaveWeatherData @SWD_01
+  Scenario Outline: SWD_01 - Export weather data into test report                # SaveWeatherData.feature:18
+    Given user launches application under test                                   # CommonSteps.userLaunchesApplicationUnderTest()
+      java.lang.ExceptionInInitializerError
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+      	at org.testng.TestRunner.run(TestRunner.java:632)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+      	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+      	at ✽.Given user launches application under test(SaveWeatherData.feature:8)
+      Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @b104ca1
+      	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+      	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+      	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:180)
+      	at java.base/java.lang.reflect.Field.setAccessible(Field.java:174)
+      	at cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)
+      	at cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit>(TreeMapConverter.java:50)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:574)
+      	at cucumber.deps.com.thoughtworks.xstream.XStream.<init>(XStream.java:530)
+      	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.<init>(LocalizedXStreams.java:50)
+      	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+      	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+      	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+      	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+      	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+      	at org.testng.TestRunner.run(TestRunner.java:632)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+      	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+      	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+      	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+      	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+      	at java.base/java.lang.Thread.run(Thread.java:833)
+
+    And "FORECAST_PAGE" shows up                                                 # CommonSteps.pageShowUp(String)
+    When user clicks on menu following orders "Weather > Yesterday/Past Weather" # CommonSteps.user_clicks_on_menu_following_orders_will_be_removed(String)
+    Then "PAST_WEATHER_PAGE" shows up                                            # CommonSteps.pageShowUp(String)
+    And "PAST_WEATHER_PAGE_WEATHER_LINKS_AREA" is present                        # CommonSteps.elementIsPresent(String)
+    When user select "PAST_WEATHER_PAGE_SELECT_MONTH_DROPDOWN" as "Past 2 Weeks" # CommonSteps.user_select_as(String,String)
+    Then user export weather data into test report                               # CommonSteps.user_export_weather_data_into_test_report()
+2022-08-30 09:59:53 DEBUG TestListener:49 - BEGINNING: WebDriverListener.afterInvocation
+2022-08-30 09:59:53 INFO  TestListener:57 - Renaming test method name from: 'feature' to: 'Smoke Test on Web - feature - 
+2022-08-30 09:59:53 DEBUG TestListener:65 - END: WebDriverListener.afterInvocation
+]]></system-out>
+    <system-err><![CDATA[[TestNG] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+[TestNG] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mfv-computer-0163/.cache/selenium/chromedriver/mac-arm64/104.0.5112.79/chromedriver
+ChromeDriver was started successfully.
+Aug 30, 2022 9:59:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

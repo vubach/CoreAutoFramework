@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Run Test Cukes]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="BrowserName" value="CHROME"/>
+  <parameter name="ExecutionMode" value="WEB"/>
+  <listeners>
+    <listener class-name="com.CucumberCraft.SupportLibraries.TestListener"/>
+  </listeners>
+  <test name="Smoke Test on Web">
+    <parameter name="BrowserName" value="CHROME"/>
+    <parameter name="ExecutionMode" value="WEB"/>
+    <classes>
+      <class name="com.CucumberCraft.TestNGrunners.TestRunner"/>
+    </classes>
+  </test> <!-- Smoke Test on Web -->
+  <test parallel="tests" name="Smoke Test on Web(failed)">
+    <parameter name="BrowserName" value="CHROME"/>
+    <parameter name="ExecutionMode" value="WEB"/>
+    <classes>
+      <class name="com.CucumberCraft.TestNGrunners.TestRunner">
+        <methods>
+          <include name="test"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.CucumberCraft.TestNGrunners.TestRunner -->
+    </classes>
+  </test> <!-- Smoke Test on Web(failed) -->
+</suite> <!-- Failed suite [Run Test Cukes] -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Run Test Cukes" parallel="tests" thread-count="2">
+
+	<listeners>
+		<!-- This TestNG listener takes care of setting up and tearing down the 
+			WebDriver, and it also changes test names in the final TestNG HTML report. 
+			<suite name="Run Test Cukes" parallel="tests" thread-count="2">
+			-->
+		<listener
+			class-name="com.CucumberCraft.SupportLibraries.TestListener" />
+	</listeners>
+	
+	<test name="Smoke Test on Web">
+		<parameter name="ExecutionMode" value="WEB" />
+		<parameter name="BrowserName" value="CHROME" />	
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.TestRunner" />
+		</classes>
+	</test>
+
+<!--
+	<test name="Smoke Test on Mobile 1">
+		<parameter name="ExecutionMode" value="SEETEST" />
+		<parameter name="MobileExecutionPlatform" value="ANDROID" />
+		<parameter name="DeviceName" value="Samsung Galaxy A5 IO-UK 41" />
+		<parameter name="SerialNumber" value="5200ff97eef7a423" />
+		<parameter name="OSVersion" value="8" />
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.RunCucumberTests_Smoke" />
+		</classes>
+	</test>	
+
+	<test name="Smoke Test on API">
+		<parameter name="ExecutionMode" value="API" />
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.SmokeTestRunner2" />			
+		</classes>
+	</test>
+
+	<test name="Smoke Test on Mobile">
+		<parameter name="ExecutionMode" value="MOBILE" />
+		<parameter name="MobileExecutionPlatform" value="ANDROID" />
+		<parameter name="DeviceName" value="52004c98eea95419" />
+		<parameter name="OSVersion" value="9" />
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.RunCucumberTests_Smoke" />
+		</classes>
+	</test>	
+
+	
+	
+	<test name="Smoke Test on Web - FireFox">
+		<parameter name="ExecutionMode" value="WEB" />
+		<parameter name="BrowserName" value="FIREFOX" />		
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.RunCucumberTests_Smoke_FF" />			
+		</classes>
+	</test>
+	
+	<test name="Smoke Test on Web - Chrome">
+		<parameter name="ExecutionMode" value="REMOTE" />
+		<parameter name="BrowserName" value="CHROME" />		
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.RunCucumberTests_Smoke" />			
+		</classes>
+	</test>
+
+	<test name="Smoke Test on Mobile - Android">
+		<parameter name="ExecutionMode" value="SEETEST" />
+		<parameter name="MobileExecutionPlatform" value="ANDROID" />
+		<parameter name="DeviceName" value="Nexus 6P" />
+		<parameter name="SerialNumber" value="ENU7N16126004845" />
+		<parameter name="OSVersion" value="8.1.0" />		
+		<classes>
+			<class
+				name="com.CucumberCraft.TestNGrunners.RunCucumberTests_Smoke" />
+		</classes>
+	</test> 
+
+	 -->
+
+</suite>

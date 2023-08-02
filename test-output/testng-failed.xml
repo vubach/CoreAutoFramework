@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Run Test Cukes]" parallel="tests">
+  <parameter name="BrowserName" value="CHROME"/>
+  <parameter name="ExecutionMode" value="WEB"/>
+  <listeners>
+    <listener class-name="com.CucumberCraft.SupportLibraries.TestListener"/>
+  </listeners>
+  <test name="Smoke Test on Web">
+    <parameter name="BrowserName" value="CHROME"/>
+    <parameter name="ExecutionMode" value="WEB"/>
+    <classes>
+      <class name="com.CucumberCraft.TestNGrunners.TestRunner"/>
+    </classes>
+  </test> <!-- Smoke Test on Web -->
+</suite> <!-- Failed suite [Run Test Cukes] -->
